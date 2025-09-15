@@ -1,1 +1,1 @@
-# Laboratorio-2-Convoluci-n-correlaci-n-y-transformada-de-Fourier
+# Laboratorio 2: Convolución correlación y transformada de Fourier
