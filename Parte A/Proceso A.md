@@ -2,7 +2,7 @@
 ## **Configuración Inicial**
 Esta sección importa las librerías esenciales: NumPy para cálculos numéricos, Matplotlib para gráficos, WFDB para leer señales médicas, SciPy para estadísticas avanzadas y Seaborn para visualizaciones elegantes. Es la base técnica que permite procesar y analizar señales ECG de manera correcta.
 
-<img width="60%" alt="image" src="https://github.com/user-attachments/assets/a4a25afc-724f-4265-8f3c-a49a7d6a4f4a" />
+<img width="587" height="167" alt="image" src="https://github.com/user-attachments/assets/a387e201-4d30-4a6a-9b8a-1b8072c14a0c" />
 
 
 ## **Convoluciones**
