@@ -1,27 +1,27 @@
 # **Parte A - Resultados**
 ## **Configuración Inicial**
-Esta sección importa las librerías esenciales: NumPy para cálculos numéricos, Matplotlib para gráficos, WFDB para leer señales médicas, SciPy para estadísticas avanzadas y Seaborn para visualizaciones elegantes. Es la base técnica que permite procesar y analizar señales ECG de manera correcta.
+Esta sección importa las librerías esenciales: NumPy para cálculos numéricos, Matplotlib para gráficos, WFDB para leer señales médicas, SciPy para estadísticas avanzadas y Seaborn se emplea para generar visualizaciones estadísticas claras y estilizadas.
 
 <img width="587" height="167" alt="image" src="https://github.com/user-attachments/assets/a387e201-4d30-4a6a-9b8a-1b8072c14a0c" />
-
 
 ## **Convoluciones**
 ## 1. Cálculo Manual
 > ### **Laura**
-En este apartado se implementa el cálculo manual de la convolución discreta entre las secuencias ℎ(𝑛) (respuesta al impulso del sistema) y 𝑥(𝑛) (señal de entrada). Se utilizó el método matricial: cada elemento de 𝑥(𝑛) multiplica a todos los elementos de ℎ(𝑛) generando productos desplazados (columnas diagonales en la tabla). Posteriormente, se suman los valores sobre cada diagonal para obtener la secuencia resultante 𝑦(𝑛).
+En este apartado se implementa el cálculo manual de la convolución discreta entre las secuencias ``ℎ(𝑛)`` (respuesta al impulso del sistema) y ``𝑥(𝑛)`` (señal de entrada). Se utilizó el método matricial: cada elemento de ``𝑥(𝑛)`` multiplica a todos los elementos de ``ℎ(𝑛)`` generando productos desplazados (columnas diagonales en la tabla). Posteriormente, se suman los valores sobre cada diagonal para obtener la secuencia resultante ``𝑦(𝑛)``.
 
 <img width="1012" height="369" alt="image" src="https://github.com/user-attachments/assets/2bcd7b95-81f4-43fa-ac00-5b41be2a09a3" />
 
 > ### **Carol**
-Se aplica el mismo proceso de convolución discreta con un conjunto distinto de secuencias ℎ(𝑛) y 𝑥(𝑛). El uso de la tabla permite visualizar la propiedad de linealidad y superposición del sistema: cada fila corresponde a ℎ
-(𝑛) ponderada por una muestra de 𝑥(𝑛), y la alineación diagonal muestra cómo se acumulan los aportes en distintos instantes 𝑛. El resultado 𝑦(𝑛) permite verificar manualmente el comportamiento del sistema, siendo útil para contrastar con implementaciones computacionales.
+Se aplica el mismo proceso de convolución discreta con un conjunto distinto de secuencias ``ℎ(𝑛)`` y ``𝑥(𝑛)``. El uso de la tabla permite visualizar la propiedad de linealidad y superposición del sistema: cada fila corresponde a ``ℎ(𝑛)`` ponderada por una muestra de ``𝑥(𝑛)``, y la alineación diagonal muestra cómo se acumulan los aportes en distintos instantes 𝑛. El resultado ``𝑦(𝑛)`` permite verificar manualmente el comportamiento del sistema, siendo útil para contrastar con implementaciones computacionales.
 
 <img width="1065" height="321" alt="image" src="https://github.com/user-attachments/assets/21e04f77-6bb5-4efb-9f7e-dd7a26c6a403" />
 
 > ### **Carlos**
-En este caso, aunque cambian los valores de ℎ(𝑛) y 𝑥(𝑛), la longitud 𝑛 de las secuencias permanece constante, por lo que la cantidad de operaciones no se incrementa, solo varían los resultados obtenidos en cada posición.
+En este caso, aunque cambian los valores de ``ℎ(𝑛)`` y ``𝑥(𝑛)``, la longitud 𝑛 de las secuencias permanece constante, por lo que la cantidad de operaciones no se incrementa, solo varían los resultados obtenidos en cada posición.
+
 <img width="1371" height="374" alt="image" src="https://github.com/user-attachments/assets/d764861c-af2c-4ed0-af9f-578140c6a125" />
 
+<br>
 <br>
 
 > [!IMPORTANT]  
@@ -43,6 +43,7 @@ Para esta sección se utilizaron los datos correspondientes al código y la céd
 <img width="530" height="506" alt="image" src="https://github.com/user-attachments/assets/d4181d95-2985-496d-8a24-001ad6720320" />
 </p>
 
+<br>
 
 > ### **Carol**
 > <p align="center">
@@ -56,6 +57,7 @@ Para esta sección se utilizaron los datos correspondientes al código y la céd
 <img width="532" height="567" alt="image" src="https://github.com/user-attachments/assets/d6c17e28-104b-4c68-8fb2-f8e4db6fbc60" />
 </p>
 
+<br>
 
 > ### **Carlos**
 > <p align="center">
@@ -71,8 +73,6 @@ Para esta sección se utilizaron los datos correspondientes al código y la céd
 
 > [!IMPORTANT]  
 > Los resultados obtenidos de forma gráfica fueron comparados y validados con las representaciones generadas mediante la implementación en Python, confirmando la correcta ejecución de la convolución discreta en todos los casos analizados.
-
-
 
 ## 3. Cálculo usando Python
 
