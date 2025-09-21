@@ -19,4 +19,4 @@ En la parte A del laboratorio se desarrolló un código para implementar manualm
 
 Para esta parte del laboratorio se desarrolla el codigo necesario para poder calcular la correlación cruzada entre dos señales discretas. Para esto, se definireron las señales ``x[1]`` como una función coseno y ``x[2]`` relacionada con una función seno, ambas con nueve muestras y un periodo de 1.25ms. Estas señales se representaron en forma inicial como un vector y se graficaran en una sola figura. Luego se implementa en la programación un ciclo ``for`` para poder evaluar la sumatoria de la correlación cruzada dada por ``r12[𝑛]=∑ x1[n]⋅𝑥2[𝑛+𝑘]`` donde los diferentes retardos son representados por k que se aplican a la segunda señal. Los resultados obtenidos se organizan en vectores que a la vex fueron graficados para poder su análisis.
 
-[Parte B](https://github.com/carolcruz5600/Laboratorio-2/blob/main/Parte%20A/Proceso%20A.md)
+[Parte B](https://github.com/carolcruz5600/Laboratorio-2/blob/4c8f13584dadae05fd38445f36fef5a0659ee82e/Parte%20B/Proceso%20B.md)
