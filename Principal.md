@@ -9,7 +9,15 @@
 * Comprender la convolución como una operación que permite obtener la respuesta de un sistema discreto ante una entrada determinada.
 * Analizar la correlación como medida de similitud entre dos señales.
 * Aplicar la Transformada de Fourier como herramienta de análisis en eldominio de la frecuencia.
-  
+
+## Diagramas 
+
+[Diagrama A](https://github.com/carolcruz5600/Laboratorio-2/blob/b72f20bfcba8161f8cfee12ca44652cfe5fb9744/Diagramas/Lab%202%20-%20PDS%20-%20Diagrama%20A.jpg)
+
+[Diagrama B](https://github.com/carolcruz5600/Laboratorio-2/blob/b72f20bfcba8161f8cfee12ca44652cfe5fb9744/Diagramas/Lab%202%20-%20PDS%20-%20Diagrama%20B.jpg)
+
+[Diagrama C](https://github.com/carolcruz5600/Laboratorio-2/blob/b72f20bfcba8161f8cfee12ca44652cfe5fb9744/Diagramas/Lab%202%20-%20PDS%20-%20Diagrama%20C.jpg)
+
 ## Parte A
 En la parte A del laboratorio se desarrolló un código para implementar manualmente el algoritmo de convolución discreta. Para ello, se definieron las señales ``ℎ[𝑛]``, asociada al código estudiantil de cada integrante, y ``𝑥[𝑛]``, correspondiente a la cédula, como arreglos. Luego se programó la operación de convolución usando bucles anidados para calcular cada muestra ``𝑦[𝑛]=∑ℎ[𝑘]⋅𝑥[𝑛−𝑘]``. El código incluyó la implementación de la lógica para manejar los índices y límites de las sumatorias. Posteriormente, se generaron las gráficas de las señales originales ``ℎ[𝑛]`` y ``𝑥[𝑛]``, así como de la señal resultante ``𝑦[𝑛]`` de la convolución, utilizando matplotlib para visualizar tanto las señales de entrada como la respuesta del sistema, permitiendo analizar gráficamente el comportamiento temporal de la convolución.
 
