@@ -8,7 +8,7 @@
 ## Objetivos 
 * Comprender la convolución como una operación que permite obtener la respuesta de un sistema discreto ante una entrada determinada.
 * Analizar la correlación como medida de similitud entre dos señales.
-* Aplicar la Transformada de Fourier como herramienta de análisis en eldominio de la frecuencia.
+* Aplicar la Transformada de Fourier como herramienta de análisis en el dominio de la frecuencia.
 
 ## Diagramas 
 
