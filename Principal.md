@@ -1,4 +1,4 @@
-# Laboratorio 2: Convolución correlación y transformada de Fourier
+# Laboratorio 2: Convolución, Correlación y Transformada de Fourier
 
 ## Integrantes
 * Laura Valentina Velásquez Castiblanco (5600846)
