@@ -31,6 +31,6 @@ Para esta parte del laboratorio se desarrolla el codigo necesario para poder cal
 
 ## Parte C
 
-En la parte C del laboratorio se trabajó con una señal EOG (electrooculografía) adquirida mediante el generador de señales biológicas. 
+En la parte C del laboratorio se trabajó con una señal EOG (electrooculografía) adquirida mediante el generador de señales biológicas. Con la ayuda del **NIDAQMX**, se digitalizó la señal con una frecuencia de muestreo $f_s=800 Hz$ para poder manipularla en el compilador de `Python`. Posteriormente, se caracterizó la señal en el dominio del tiempo mediante el cálculo de su media, mediana, desviación estándar y la determinación de su máximo y mínimo. Seguidamente, se aplico la Transformada de Fourier (FFT) y se determinó su Densidad Espectral de Potencia (PSD) 
 
-
+[Parte C](https://github.com/carolcruz5600/Laboratorio-2/blob/main/Parte%20C/Proceso%20C.md)
