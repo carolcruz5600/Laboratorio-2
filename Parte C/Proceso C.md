@@ -13,7 +13,7 @@ $$f_s=400Hz$$
 
 Sin embargo, se optó por usar una frecuencia de muestreo $f_s=800Hz$ para evitar conflictos con otros parámetros previamente definidos. La captura de la señal EOG originada del generador de señales biológicas se realizó empleando la librería ``nidaqmx``. Para su uso fuera del laboratorio, la señal se guardo en formato ``.txt`` con la ayuda de ``np.savetxt``.
 
-<img width="729" height="320" alt="image" src="https://github.com/user-attachments/assets/82673077-fedb-4a6a-a73a-20d9e77cb69d" />
+<img width="727" height="437" alt="image" src="https://github.com/user-attachments/assets/d856963a-95b2-443a-b426-f72d488a4db0" />
 
 Los otros parámetros de la captura fueron:\
 $$n=5000$$\
